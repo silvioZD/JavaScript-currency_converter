@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript Currency Converter</title>
+<meta charset="UTF-8">
+<meta name="description" content="Free Online Currency Converter">
+<meta name="keywords" content="Currency,Converter, JavaScript">
+<meta name="author" content="Silvio Brkic">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<!-- DDSlick -->
+ <script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<div class="row" id="title">
+<h1>Online Currency Converter</h1>
+</div>
+</div>
+
+
+<div class="row text-center" id="content">
+	<div class="col-md-3" id="numInput">
+<input type="number" id="amount" placeholder="100">
+</div>
+<div class="col-md-3">
+<div id="fromDropdown">
+</div></div>
+
+<a href="#"><span id="reverse">&#8658;</span></a>
+<div class="col-md-3">
+<div id="toDropdown">
+</div></div>
+
+</div>
+
+<div class="row text-center">
+<div class="col-md-4 offset-md-4">
+<button class="btn btn-primary" id="convert" type="submit" onclick="convert()">Convert</button>
+</div>
+</div>
+
+<p id="result"></p>
+<h2 id="converted"></h2>
+
+
+<script src="ddslick.js"></script>
+<script src="ddData.js"></script>
+<script src="convert.js"></script>
+</body>
+
+</html>

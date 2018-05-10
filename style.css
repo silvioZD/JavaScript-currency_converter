@@ -1,0 +1,98 @@
+@media only screen and (max-width: 639px) {
+
+#reverse {display:none;margin-left:190px;}
+#from {margin:10px;}
+.dd-selected {margin-left:20px; margin-top: 20px;}
+.col-md-3 {margin-left: 10px; margin-top: 20px;}
+#amount {margin-left: 100px; width:80%;}
+#content {margin:auto;}
+#numInput {width:80%; margin-left: 0px; font-size: 20px; border:none;}
+#convert {font-size: 20px;}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 799px) {
+#reverse {display:none;margin-left:190px;}
+#from {margin:10px;}
+.dd-selected {margin-left:20px; margin-top: 20px;}
+.col-md-3 {margin-left: 120px; margin-top: 20px;}
+#amount {margin-left: 100px; width:80%;}
+#content {margin:auto;}
+#numInput {width:80%; margin-left: 0px; font-size: 20px; border:none;}
+#convert {font-size: 20px;}
+}	
+
+#reverse a, #fromdd {
+	text-decoration: none;
+}
+#reverse {
+	font-size: 30px;
+	margin-top: 15px;
+	margin-right:20px;
+	display:inline-block;
+}
+
+ a:hover {
+	text-decoration: none;
+	text-align: center;
+}
+
+h1 {
+	color:blue;
+	text-align: center;
+	margin:30px;
+}
+
+#title {
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	size:80%;
+	display: block;
+}
+
+#content {
+	margin-top:3vh;
+	margin-bottom:3vh;
+	height: 80%;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+#convert {
+	background-color: green;
+	margin:5vh;
+}
+
+#result {
+	font-size: 18px;
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+	margin:1vh;
+}
+
+#converted {
+	text-align: center;
+}
+#amount {
+	width:50%;
+	height:100%;
+	margin-left: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+input::placeholder {
+	text-align: center;
+}
+div.dd-select {
+	height: 70px;
+	padding:0;
+}
+a.dd-option {
+	height:70px;
+}
+.dd-selected {
+	margin-top: -8px;
+}
