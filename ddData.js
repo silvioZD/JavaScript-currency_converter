@@ -53,7 +53,7 @@ var ddData = [
 	value: "TRY",
 	selected: false,
 	imageSrc: "images/Turkey.png"
-},
+},/*
 {
 	text: "ARS - Argentine Peso",
 	value: "ARS",
@@ -65,7 +65,7 @@ var ddData = [
 	value: "BAM",
 	selected: false,
 	imageSrc: "images/Bosnia-and-Herzegovina.png"
-},
+},*/
 {
 	text: "CZK - Czech Koruna",
 	value: "CZK",
@@ -83,13 +83,13 @@ var ddData = [
 	value: "DKK",
 	selected: false,
 	imageSrc: "images/Denmark.png"
-},
+},/*
 {
 	text: "EGP - Egyptian Pound",
 	value: "EGP",
 	selected: false,
 	imageSrc: "images/Egypt.png"
-},
+},*/
 {
 	text: "CHF - Swiss Franc",
 	value: "CHF",
@@ -113,13 +113,13 @@ var ddData = [
 	value: "HUF",
 	selected: false,
 	imageSrc: "images/Hungary.png"
-},
+},/*
 {
 	text: "MKD - Macedonian Denar",
 	value: "MKD",
 	selected: false,
 	imageSrc: "images/Macedonia.png"
-},
+},*/
 {
 	text: "MXN - Mexican Peso",
 	value: "MXN",
@@ -131,13 +131,13 @@ var ddData = [
 	value: "SEK",
 	selected: false,
 	imageSrc: "images/Sweden.png"
-},
+},/*
 {
 	text: "RSD - Serbian Dinar",
 	value: "RSD",
 	selected: false,
 	imageSrc: "images/Serbia.png"
-},
+},*/
 {
 	text: "ISK - Icelandic Krona",
 	value: "ISK",
